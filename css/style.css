@@ -28,5 +28,9 @@ body,
 .divider {
   border-bottom: 1px solid gray;
   width: 50%;
-  margin: 33px auto;
+  margin: 25px auto;
+}
+
+.skill li {
+  margin-bottom: 12px;
 }
