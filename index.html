@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -26,7 +25,9 @@
   <body class="px-4">
     <nav class="navbar navbar-expand-lg navbar-light topNav">
       <div class="container-fluid">
+        <!-- Brand -->
         <a class="navbar-brand text-white" href="#">Makoji David</a>
+        <!-- Hamburger menu -->
         <button
           class="navbar-toggler"
           type="button"
@@ -36,8 +37,9 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon border"></span>
+          <img src="./img/menu_black_48dp.svg" alt="menu-icon" />
         </button>
+        <!-- top menu -->
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
@@ -58,7 +60,7 @@
         </div>
       </div>
     </nav>
-
+    <!-- Banner -->
     <section class="banner text-center text-white">
       <h1 class="title fs-3 fw-bold">Onate Makoji David</h1>
       <p class="subtitle fs-5 fw-bold text-capitalize">Software developer</p>
@@ -69,6 +71,7 @@
       </p>
       <div class="divider"></div>
     </section>
+    <!-- External links -->
     <div class="d-flex w-50 mx-auto justify-content-between">
       <ul class="list-unstyled skill">
         <li class="title">Language</li>
@@ -107,6 +110,7 @@
       </ul>
     </div>
     <div class="divider"></div>
+    <!-- Middle navigation -->
     <div class="d-flex justify-content-between">
       <div class="d-flex">
         <a href="#"
@@ -144,6 +148,7 @@
     <section class="container d-flex flex-column gap-5 mt-5">
       <h2 class="title fw-bolder fs-larger">My Recent Works</h2>
       <div class="divider w-100"></div>
+      <!-- Cards -->
       <div
         class="container-fluid d-flex justify-content-around gap-5 my-3 text-white"
       >
@@ -169,10 +174,11 @@
                 <a class="text-decoration-none text-white" href="#">Github</a>
               </li>
             </ul>
-            <button class="btn btn-primary">see project</button>
+            <button type="button" class="btn btn-primary">see project</button>
           </div>
         </div>
       </div>
+      <!-- Cards -->
       <div
         class="container-fluid d-flex flex-row-reverse justify-content-around gap-5 my-3 text-white"
       >
@@ -200,33 +206,89 @@
                 <a class="text-decoration-none text-white" href="#">Github</a>
               </li>
             </ul>
-            <button class="btn btn-primary">see project</button>
+            <button type="button" class="btn btn-primary">see project</button>
           </div>
         </div>
       </div>
+      <!-- Contact form -->
       <div class="form text-center text-white">
         <h1 class="title fs-3 fw-bold">Lets Chat</h1>
         <p class="description w-50 mx-auto text-start fw-light text-center">
-          If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding. I’d love to help
+          with it
         </p>
-        <form class="mx-auto w-25 my-5" action="https://formspree.io/f/xbjwvdvq" method="post">
+        <form
+          class="mx-auto w-25 my-5"
+          action="https://formspree.io/f/xbjwvdvq"
+          method="post"
+        >
           <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label visually-hidden">Full Name</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Text input">
+            <label
+              for="exampleFormControlInput1"
+              class="form-label visually-hidden"
+              >Full Name</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="Text input"
+            />
           </div>
           <div class="mb-3">
-            <label for="exampleFormControlInput2" class="form-label visually-hidden">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="example@gmail.com">
+            <label
+              for="exampleFormControlInput2"
+              class="form-label visually-hidden"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput2"
+              placeholder="example@gmail.com"
+            />
           </div>
           <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label visually-hidden">Example textarea</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter text Here" rows="3"></textarea>
+            <label
+              for="exampleFormControlTextarea1"
+              class="form-label visually-hidden"
+              >Example textarea</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              placeholder="Enter text Here"
+              rows="3"
+            ></textarea>
           </div>
           <button type="submit" class="btn btn-primary">Send</button>
         </form>
       </div>
       <div class="divider w-100"></div>
     </section>
+    <footer>
+      <div class="d-flex gap-3 justify-content-center mx-auto">
+        <ul class="d-flex list-unstyled gap-4">
+          <li>
+            <a href="#"><img src="img/github.svg" alt="Github" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="img/linkedin.svg" alt="Linkedin" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="img/angellist.svg" alt="Angellist" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="img/twitter.svg" alt="Twitter" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="img/medium.svg" alt="Medium" /></a>
+          </li>
+        </ul>
+        <span class="fw-normal text-white"> makojidavid@gmail.com </span>
+      </div>
+    </footer>
 
     <!-- Bootstrap Bundle with Popper -->
     <script
