@@ -1,7 +1,7 @@
 body,
 .topNav {
   background-color: rgb(29, 44, 101);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .nav-link {
@@ -14,7 +14,7 @@ body,
 }
 
 .title {
-  color: rgb(147,145,255);
+  color: rgb(147, 145, 255);
 }
 
 .banner {
