@@ -1,0 +1,46 @@
+body,
+.topNav,
+.card {
+  background-color: rgb(29, 44, 101);
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-link {
+  color: white;
+}
+
+.icon {
+  color: white !important;
+  fill: white;
+}
+
+.title {
+  color: rgb(147, 145, 255);
+}
+
+.banner {
+  margin: 75px 0;
+}
+
+.description {
+  font-size: small;
+}
+
+.divider {
+  border-bottom: 1px solid gray;
+  margin: 25px auto;
+}
+
+.skill li {
+  margin-bottom: 12px;
+}
+
+.ext-links {
+  flex-wrap: wrap;
+}
+
+.ext-links-col {
+  flex-basis: 200px;
+  max-width: 210px;
+  flex-grow: 1;
+}
